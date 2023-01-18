@@ -11,16 +11,6 @@ use Illuminate\Http\Response;
 
 class ApiController extends Controller
 {
-    /**
-    * PHPUnit - Test
-    * - wenn bekannt Test mit Codeception
-    *
-    *
-    * Fleiﬂaufgaben
-    *
-    * - Authentifizeriung
-    * - HTTP Basic Auth oder Token
-     */
 
     public function hello(): array {
         return ["message" => "hello"];
